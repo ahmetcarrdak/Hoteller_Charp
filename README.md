@@ -29,4 +29,5 @@ Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 
 ## Notlar
 
-- Site ayarları ve iletişim sayfası veritabanı bağlı değildir. SQL dosyası içinde bulunmaktadır.
+- Site ayarları ve iletişim sayfası veritabanı bağlı değildir.
+- SQL dosyası proje içinde bulunmaktadır.
