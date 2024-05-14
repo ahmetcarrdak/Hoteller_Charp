@@ -1,0 +1,169 @@
+@model HotelViewModel
+
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-5">
+            <!-- Carousel -->
+            <div id="roomCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#roomCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#roomCarousel" data-slide-to="1"></li>
+                    <li data-target="#roomCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="~/img/room-slider/room-1.jpg" class="d-block w-100" alt="Room Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/img/room-slider/room-2.jpg" class="d-block w-100" alt="Room Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/img/room-slider/room-3.jpg" class="d-block w-100" alt="Room Image 3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#roomCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#roomCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- End Carousel -->
+        </div>
+        <div class="col-lg-7">
+            <!-- Room Details -->
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title d-flex justify-content-around">
+                        @Model.Oteller[0].Name
+                        <button class="btn btn-warning" data-toggle="modal" data-target="#modal-id">
+                            Rezervasyon Yap
+                        </button>
+                    </h1>
+                    <p class="card-text">@Model.Oteller[0].Detail</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Size: @Model.Oteller[0].Size</li>
+                        <li class="list-group-item">Room Number: @Model.Oteller[0].RoomNumber</li>
+                        <li class="list-group-item">Price: $@Model.Oteller[0].Price </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Room Details -->
+        </div>
+    </div>
+</div>
+
+<div id="modal-id" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form action="" method="post" id="roomRezervasionForm" onsubmit="return false">
+                    <input type="hidden" name="hotelId" value="@Model.Oteller[0].Id">
+                    <div class="row">
+                        <div class="col">
+                            <label for="#start-date">Giriş Tarhiniz</label>
+                            <input type="date" id="start-date" class="form-control" asp-format="{0:yyyy-MM-dd}"
+                                   name="StartDate" required="required">
+                            <div class="warning-start small mt-2"></div>
+                        </div>
+                        <div class="col">
+                            <label for="end-date">Çıkış Tarhiniz</label>
+                            <input type="date" id="end-date" class="form-control" asp-format="{0:yyyy-MM-dd}"
+                                   name="EndDate" required="required">
+                            <div class="warning-end small mt-2"></div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <label for="#name">İsim Soyisim</label>
+                            <input type="text" class="form-control" name="name" required="required">
+                        </div>
+                        <div class="col">
+                            <label for="#phone">Telefon Numarası</label>
+                            <input type="text" class="form-control" name="phone" required="required">
+                        </div>
+                    </div>
+                    <div class="row mt-3 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-warning">Gönder</button>
+                    </div>
+                </form>
+                <div id="results" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const startDateInput = document.getElementById('start-date');
+        const endDateInput = document.getElementById('end-date');
+  
+        const disabledDates = [
+            @foreach (var doluTarih in Model.DoluTarihler)
+            {
+                <text>
+                    { start: new Date('@doluTarih.ToString("yyyy-MM-dd")'), end: new Date('@doluTarih.ToString("yyyy-MM-dd")') },
+                </text>
+            }
+        ];
+
+
+
+        function handleStartDateInput(input) {
+            const selectedDate = new Date(input.value);
+            const warningStart = document.querySelector('.warning-start');
+            warningStart.innerHTML = '';
+
+            let isDateOccupied = false;
+            for (const { start, end } of disabledDates) {
+                if (selectedDate >= start && selectedDate <= end) {
+                    isDateOccupied = true;
+                    break;
+                }
+            }
+
+            if (isDateOccupied) {
+                input.value = ''; // Seçilen tarihi boşalt
+                warningStart.innerHTML = '<span class="text-danger">Bu tarih dolu. Başka bir tarih seçiniz.</span>';
+            } else {
+                warningStart.innerHTML = '<span class="text-success">Bu tarih müsait.</span>';
+            }
+        }
+
+        function handleEndDateInput(input) {
+            const selectedDate = new Date(input.value);
+            const warningEnd = document.querySelector('.warning-end');
+            warningEnd.innerHTML = '';
+
+            let isDateOccupied = false;
+            for (const { start, end } of disabledDates) {
+                if (selectedDate >= start && selectedDate <= end) {
+                    isDateOccupied = true;
+                    break;
+                }
+            }
+
+            if (isDateOccupied) {
+                input.value = ''; // Seçilen tarihi boşalt
+                warningEnd.innerHTML = '<span class="text-danger">Bu tarih dolu. Başka bir tarih seçiniz.</span>';
+            } else {
+                warningEnd.innerHTML = '<span class="text-success">Bu tarih müsait.</span>';
+            }
+        }
+
+        document.getElementById('start-date').addEventListener('input', function() {
+            handleStartDateInput(this);
+        });
+
+        document.getElementById('end-date').addEventListener('input', function() {
+            handleEndDateInput(this);
+        });
+
+
+    });
+</script>

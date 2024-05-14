@@ -1,0 +1,437 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/css/hover-style.css",
+      "PackagePath": "staticwebassets/css/hover-style.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/about/about-1.jpg",
+      "PackagePath": "staticwebassets/img/about/about-1.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/about/about-2.jpg",
+      "PackagePath": "staticwebassets/img/about/about-2.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/about/about-3.jpg",
+      "PackagePath": "staticwebassets/img/about/about-3.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/amenities-bg.jpg",
+      "PackagePath": "staticwebassets/img/amenities-bg.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/apple-favicon.png",
+      "PackagePath": "staticwebassets/img/apple-favicon.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/favicon.ico",
+      "PackagePath": "staticwebassets/img/favicon.ico"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/air-conditioner-hover.png",
+      "PackagePath": "staticwebassets/img/icon/air-conditioner-hover.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/air-conditioner.png",
+      "PackagePath": "staticwebassets/img/icon/air-conditioner.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/air-conditioner.svg",
+      "PackagePath": "staticwebassets/img/icon/air-conditioner.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/bathtub-hover.png",
+      "PackagePath": "staticwebassets/img/icon/bathtub-hover.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/bathtub.png",
+      "PackagePath": "staticwebassets/img/icon/bathtub.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/bathtub.svg",
+      "PackagePath": "staticwebassets/img/icon/bathtub.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/call-hover.png",
+      "PackagePath": "staticwebassets/img/icon/call-hover.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/call.png",
+      "PackagePath": "staticwebassets/img/icon/call.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/call.svg",
+      "PackagePath": "staticwebassets/img/icon/call.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/kitchen-hover.png",
+      "PackagePath": "staticwebassets/img/icon/kitchen-hover.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/kitchen.png",
+      "PackagePath": "staticwebassets/img/icon/kitchen.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/kitchen.svg",
+      "PackagePath": "staticwebassets/img/icon/kitchen.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/minibar-hover.png",
+      "PackagePath": "staticwebassets/img/icon/minibar-hover.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/minibar.png",
+      "PackagePath": "staticwebassets/img/icon/minibar.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/minibar.svg",
+      "PackagePath": "staticwebassets/img/icon/minibar.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/shield-hover.png",
+      "PackagePath": "staticwebassets/img/icon/shield-hover.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/shield.png",
+      "PackagePath": "staticwebassets/img/icon/shield.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/shield.svg",
+      "PackagePath": "staticwebassets/img/icon/shield.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/shower-hover.png",
+      "PackagePath": "staticwebassets/img/icon/shower-hover.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/shower.png",
+      "PackagePath": "staticwebassets/img/icon/shower.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/shower.svg",
+      "PackagePath": "staticwebassets/img/icon/shower.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/television-hover.png",
+      "PackagePath": "staticwebassets/img/icon/television-hover.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/television.png",
+      "PackagePath": "staticwebassets/img/icon/television.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/television.svg",
+      "PackagePath": "staticwebassets/img/icon/television.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/towel-hover.png",
+      "PackagePath": "staticwebassets/img/icon/towel-hover.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/towel.png",
+      "PackagePath": "staticwebassets/img/icon/towel.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/towel.svg",
+      "PackagePath": "staticwebassets/img/icon/towel.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/wifi-connection-signal-symbol.svg",
+      "PackagePath": "staticwebassets/img/icon/wifi-connection-signal-symbol.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/wifi-hover.png",
+      "PackagePath": "staticwebassets/img/icon/wifi-hover.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/icon/wifi.png",
+      "PackagePath": "staticwebassets/img/icon/wifi.png"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/logo.jpg",
+      "PackagePath": "staticwebassets/img/logo.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/room-slider/room-1.jpg",
+      "PackagePath": "staticwebassets/img/room-slider/room-1.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/room-slider/room-2.jpg",
+      "PackagePath": "staticwebassets/img/room-slider/room-2.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/room-slider/room-3.jpg",
+      "PackagePath": "staticwebassets/img/room-slider/room-3.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/room-slider/room-4.jpg",
+      "PackagePath": "staticwebassets/img/room-slider/room-4.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/room-slider/room-5.jpg",
+      "PackagePath": "staticwebassets/img/room-slider/room-5.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/room-slider/room-6.jpg",
+      "PackagePath": "staticwebassets/img/room-slider/room-6.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/room/room-1.jpg",
+      "PackagePath": "staticwebassets/img/room/room-1.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/room/room-2.jpg",
+      "PackagePath": "staticwebassets/img/room/room-2.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/room/room-3.jpg",
+      "PackagePath": "staticwebassets/img/room/room-3.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/room/room-4.jpg",
+      "PackagePath": "staticwebassets/img/room/room-4.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/room/room-5.jpg",
+      "PackagePath": "staticwebassets/img/room/room-5.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/slider/header-slider-1.jpg",
+      "PackagePath": "staticwebassets/img/slider/header-slider-1.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/slider/header-slider-2.jpg",
+      "PackagePath": "staticwebassets/img/slider/header-slider-2.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/img/slider/header-slider-3.jpg",
+      "PackagePath": "staticwebassets/img/slider/header-slider-3.jpg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/js/ajax.js",
+      "PackagePath": "staticwebassets/js/ajax.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/js/booking.js",
+      "PackagePath": "staticwebassets/js/booking.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/js/contact.js",
+      "PackagePath": "staticwebassets/js/contact.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/js/jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets/js/jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/js/settings.js",
+      "PackagePath": "staticwebassets/js/settings.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/mail/contact.php",
+      "PackagePath": "staticwebassets/mail/contact.php"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/animate/animate.css",
+      "PackagePath": "staticwebassets/vendor/animate/animate.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/animate/animate.min.css",
+      "PackagePath": "staticwebassets/vendor/animate/animate.min.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/bootstrap/css/bootstrap.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/bootstrap/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/bootstrap/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/bootstrap/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/easing/easing.js",
+      "PackagePath": "staticwebassets/vendor/easing/easing.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/easing/easing.min.js",
+      "PackagePath": "staticwebassets/vendor/easing/easing.min.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/font-awesome/css/font-awesome.css",
+      "PackagePath": "staticwebassets/vendor/font-awesome/css/font-awesome.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/font-awesome/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/vendor/font-awesome/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/font-awesome/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/vendor/font-awesome/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/font-awesome/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/vendor/font-awesome/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/font-awesome/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/vendor/font-awesome/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/font-awesome/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/vendor/font-awesome/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/font-awesome/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/vendor/font-awesome/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/font-awesome/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/vendor/font-awesome/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/jquery/jquery-migrate.min.js",
+      "PackagePath": "staticwebassets/vendor/jquery/jquery-migrate.min.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/jquery/jquery.min.js",
+      "PackagePath": "staticwebassets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/ajax-loader.gif",
+      "PackagePath": "staticwebassets/vendor/slick/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/config.rb",
+      "PackagePath": "staticwebassets/vendor/slick/config.rb"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/fonts/slick.eot",
+      "PackagePath": "staticwebassets/vendor/slick/fonts/slick.eot"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/fonts/slick.svg",
+      "PackagePath": "staticwebassets/vendor/slick/fonts/slick.svg"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/fonts/slick.ttf",
+      "PackagePath": "staticwebassets/vendor/slick/fonts/slick.ttf"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/fonts/slick.woff",
+      "PackagePath": "staticwebassets/vendor/slick/fonts/slick.woff"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/slick-theme.css",
+      "PackagePath": "staticwebassets/vendor/slick/slick-theme.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/slick-theme.less",
+      "PackagePath": "staticwebassets/vendor/slick/slick-theme.less"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/slick-theme.scss",
+      "PackagePath": "staticwebassets/vendor/slick/slick-theme.scss"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/slick.css",
+      "PackagePath": "staticwebassets/vendor/slick/slick.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/slick.js",
+      "PackagePath": "staticwebassets/vendor/slick/slick.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/slick.less",
+      "PackagePath": "staticwebassets/vendor/slick/slick.less"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/slick.min.js",
+      "PackagePath": "staticwebassets/vendor/slick/slick.min.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/slick/slick.scss",
+      "PackagePath": "staticwebassets/vendor/slick/slick.scss"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/stickyjs/sticky.js",
+      "PackagePath": "staticwebassets/vendor/stickyjs/sticky.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/superfish/hoverIntent.js",
+      "PackagePath": "staticwebassets/vendor/superfish/hoverIntent.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/superfish/superfish.js",
+      "PackagePath": "staticwebassets/vendor/superfish/superfish.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/superfish/superfish.min.js",
+      "PackagePath": "staticwebassets/vendor/superfish/superfish.min.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/tempusdominus/css/tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets/vendor/tempusdominus/css/tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/tempusdominus/css/tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets/vendor/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/tempusdominus/js/moment-timezone.min.js",
+      "PackagePath": "staticwebassets/vendor/tempusdominus/js/moment-timezone.min.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/tempusdominus/js/moment.min.js",
+      "PackagePath": "staticwebassets/vendor/tempusdominus/js/moment.min.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/tempusdominus/js/tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets/vendor/tempusdominus/js/tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/tempusdominus/js/tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets/vendor/tempusdominus/js/tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/wow/wow.js",
+      "PackagePath": "staticwebassets/vendor/wow/wow.js"
+    },
+    {
+      "Id": "/Users/ahmetcardak/Desktop/c_sharp/Hoteller/Hoteller/wwwroot/vendor/wow/wow.min.js",
+      "PackagePath": "staticwebassets/vendor/wow/wow.min.js"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Hoteller.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.Hoteller.props",
+      "PackagePath": "build\\Hoteller.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.Hoteller.props",
+      "PackagePath": "buildMultiTargeting\\Hoteller.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.Hoteller.props",
+      "PackagePath": "buildTransitive\\Hoteller.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

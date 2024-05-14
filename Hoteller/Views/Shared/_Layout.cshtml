@@ -1,0 +1,132 @@
+﻿@{
+    string activeClass = "";
+    string currentAction = ViewContext.RouteData.Values["action"].ToString();
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <title>ROYAL HOTEL | Responsive Travel & Tourism Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="~/img/favicon.ico" rel="icon">
+    <link href="~/img/apple-favicon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <!-- Vendor CSS File -->
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/vendor/animate/animate.min.css" rel="stylesheet">
+    <link href="~/vendor/slick/slick.css" rel="stylesheet">
+    <link href="~/vendor/slick/slick-theme.css" rel="stylesheet">
+    <link href="~/vendor/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet"/>
+
+    <!-- Main Stylesheet File -->
+    <link href="~/css/hover-style.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Header Section Start -->
+<header id="header">
+    <a class="logo">
+        <img src="~/img/logo.jpg" alt="logo">
+    </a>
+    <div class="phone"><i class="fa fa-phone"></i>+1 234 567 8900</div>
+    <div class="mobile-menu-btn">
+        <i class="fa fa-bars"></i>
+    </div>
+    <nav class="main-menu top-menu">
+        <ul>
+            <li class="@((currentAction == "Index") ? "active" : "")">
+                <a asp-area="" asp-controller="Home" asp-action="Index">Anasayfa</a>
+            </li>
+            <li class="@((currentAction == "About") ? "active" : "")">
+                <a asp-area="" asp-controller="Home" asp-action="About">Hakkımızda</a>
+            </li>
+            <li class="@((currentAction == "Room") ? "active" : "")">
+                <a asp-area="" asp-controller="Home" asp-action="Room">Odalarımız</a>
+            </li>
+            <li class="@((currentAction == "Amenities") ? "active" : "")">
+                <a asp-area="" asp-controller="Home" asp-action="Amenities">Hizmetlerimiz</a>
+            </li>
+            <li class="@((currentAction == "Booking") ? "active" : "")">
+                <a asp-area="" asp-controller="Home" asp-action="Booking">Biz</a>
+            </li>
+            <li class="@((currentAction == "Login") ? "active" : "")">
+                <a asp-area="" asp-controller="Home" asp-action="Login">Giriş</a>
+            </li>
+            <li class="@((currentAction == "Contact") ? "active" : "")">
+                <a asp-area="" asp-controller="Home" asp-action="Contact">İletişim</a>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+<!-- Header Section End -->
+
+@RenderBody()
+
+<!-- Footer Section Start -->
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="social">
+                    <a href="">
+                        <li class="fa fa-instagram"></li>
+                    </a>
+                    <a href="">
+                        <li class="fa fa-twitter"></li>
+                    </a>
+                    <a href="">
+                        <li class="fa fa-facebook-f"></li>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12">
+                <p>Copyright &#169; 2045 <a href="">Your Site Name</a> All Rights Reserved.</p>
+
+                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer Section End -->
+
+<a href="#" class="back-to-top">
+    <i class="fa fa-chevron-up"></i>
+</a>
+
+<!-- Vendor JavaScript File -->
+<script src="~/vendor/jquery/jquery.min.js"></script>
+<script src="~/vendor/jquery/jquery-migrate.min.js"></script>
+<script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/vendor/easing/easing.min.js"></script>
+<script src="~/vendor/stickyjs/sticky.js"></script>
+<script src="~/vendor/superfish/hoverIntent.js"></script>
+<script src="~/vendor/superfish/superfish.min.js"></script>
+<script src="~/vendor/wow/wow.min.js"></script>
+<script src="~/vendor/slick/slick.min.js"></script>
+<script src="~/vendor/tempusdominus/js/moment.min.js"></script>
+<script src="~/vendor/tempusdominus/js/moment-timezone.min.js"></script>
+<script src="~/vendor/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+<!-- Booking Javascript File -->
+<script src="~/js/booking.js"></script>
+<script src="~/js/jqBootstrapValidation.min.js"></script>
+
+<!-- Main Javascript File -->
+<script src="~/js/main.js"></script>
+<script src="~/js/ajax.js"></script>
+
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
